@@ -61,12 +61,22 @@
       <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/petla/petla.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/piłka/piłka.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/projektprobny/projektprobny.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alaTwiter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/dao/AbstractDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/AppUserDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/util/HibernateUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/model/AppUser.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../comsdacademy/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../comsdacademy/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../comsdacademy/.idea/encodings.xml" afterDir="false" />
@@ -174,6 +184,7 @@
   <component name="ProjectId" id="1eX5V97IotaieGiXxI8UyKp4cs8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="project.structure.last.edited" value="Modules" />
