@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f5133b3-30bd-4849-b0fd-267d83f65753" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-544367273-4166393992-1869531765-1001/$IRE50XS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced3/Advanced3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FXMLControllerr/FXMLControllerr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KursTest/KursTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NowyProjekt/NowyProjekt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PizzaPortal/PizzaPortal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/01_HelloWorld/01_HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/02_Type/02_Type.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/03_Conditions/03_Conditions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/04_Loop/04_Loop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/05_Array/05_Array.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/06_KlasaPodstawy/06_KlasaPodstawy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/07_Enumy/07_Enumy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/08_Dziedziczenie/08_Dziedziczenie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/09_KlasyAbstrakcyjne/09_KlasyAbstrakcyjne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/10_PrzeciazanieMetod/10_PrzeciazanieMetod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/11_Interfejsy/11_Interfejsy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/11_Interfejsyy/.idea/11_Interfejsy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/12_Polimorfizm/12_Polimorfizm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/13_Kompozycja/13_Kompozycja.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/14_Wyjatki/14_Wyjatki.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/15_String/15_String.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/17_DataCzas/17_DataCzas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/18_TypyGeneryczne/18_TypyGeneryczne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/19_Kolekcje/19_Kolekcje.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/20_IO/20_IO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/21_NewIO/21_NewIO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/23_ProgramowanieFunkcyjne/23_ProgramowanieFunkcyjne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/A/A.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/HelloWorldMaven/HelloWorldMaven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/HelloWorldSimple/HelloWorldSimple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/InterfejsyCwiczenie/InterfejsyCwiczenie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/Kalkulator/Kalkulator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/KlasyKsiazka/KlasyKsiazka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/KlasyKsiazka2/KlasyKsiazka2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/Konto/Konto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/KontoCwiczenie/KontoCwiczenie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/MiejsceZeroweFunkcjiObiektowo/MiejsceZeroweFunkcjiObiektowo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/Miejsce_Zerowe_Funkcji/Miejsce_Zerowe_Funkcji.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/ModyfikatoryDostepu/ModyfikatoryDostepu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/NowyProjekt/NowyProjekt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/NowyProjekt1/NowyProjekt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/NowyProjekt2/NowyProjekt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/ObiektPrzyklad/ObiektPrzyklad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/ObliczWyrazenie/ObliczWyrazenie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/PoleStaticPrzyklad/PoleStaticPrzyklad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/PoleTrujkata/PoleTrujkata.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/PrzekazywanieWartosciDoMetod/PrzekazywanieWartosciDoMetod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/PrzykladZBankiemWatki/PrzykladZBankiemWatki.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/Punkt_Wektor/Punkt_Wektor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/RokPrzestepny/RokPrzestepny.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/RownanieLiniowe/RownanieLiniowe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/TabelaLaLiga/TabelaLaLiga.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/Vaxxprzyklad/Vaxxprzyklad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/javabdg9/javabdg9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/kalkulatorWersjaPoprawiona/kalkulatorWersjaPoprawiona.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/petla/petla.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/piłka/piłka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SDA_PROJEKTY/projektprobny/projektprobny.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/AbstractDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/AppUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/comsdacademy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/gitIgnore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comsdacademy/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_workshop/java_workshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../original/.idea/original.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programowanie2/programowanie2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../przerobiony material/07_Enumy/.idea/07_Enumy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../przerobiony material/11_Interfejsyy/.idea/11_Interfejsy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../przerobiony material/Kalkulator/.idea/Kalkulator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../przerobiony material/Konto/.idea/Konto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../przerobiony material/ObiektPrzyklad/.idea/ObiektPrzyklad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../przerobiony material/PrzekazywanieWartosciDoMetod/.idea/PrzekazywanieWartosciDoMetod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sda.JavaFX/.idea/sda.JavaFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sda.JavaFX/sda.JavaFX/sda.JavaFX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sda.JavaFX/sda.JavaFX/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wzorceProjektowe/wzorceProjektowe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaPortal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/controller/PizzaPortalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/model/Basket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/model/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/model/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/model/PizzaList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/model/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/service/MailingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/service/PizzaPortalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/service/RegistrationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/service/WindowService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/utility/InMemoryDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/file/baskets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/file/users.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/admin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/pizza.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/view/loginView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/view/pizzaPortalView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/view/registrationView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/META-INF/PizzaPortal.kotlin_module" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\alaTwiter\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MessagesViewTool">
+    <option name="defaultListState">
+      <MessageListState>
+        <option name="autoscrollToSource" value="true" />
+        <option name="info" value="true" />
+        <option name="warnings" value="true" />
+      </MessageListState>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eX5V97IotaieGiXxI8UyKp4cs8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\alaTwiter" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f5133b3-30bd-4849-b0fd-267d83f65753" name="Default Changelist" comment="" />
+      <created>1594455117360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594455117360</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>
