@@ -3,6 +3,7 @@ package model;
 import javax.persistence.*;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 @Entity
@@ -21,7 +22,7 @@ public class AppUser {
     private String email;
     @Column(name = "dateOfRegistration")
     private Date dateOfRegistration;
-    @ManyToMany(mappedBy = "followedByUser")
+    @ManyToMany(mappedBy = "followedByUsers")
     private Set<AppUser> followers = new HashSet<>();
     @ManyToMany(cascade = {CascadeType.MERGE, CascadeType.PERSIST})
     @JoinTable(name = "follower_followed ",
@@ -105,4 +106,29 @@ public class AppUser {
         this.followedByUsers = followedByUsers;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof AppUser)) return false;
+        AppUser appUser = (AppUser) o;
+        return getId().equals(appUser.getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId());
+    }
+
+    @Override
+    public String toString() {
+        return "AppUser{" +
+                "id=" + id +
+                ", login='" + login + '\'' +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", dateOfRegistration=" + dateOfRegistration +
+                '}';
+    }
 }

@@ -10,8 +10,8 @@ import javax.persistence.PersistenceException;
 
 public class HibernateUtil {
     private static HibernateUtil instance;
-    private final EntityManagerFactory entityManagerFactory  =
-            Persistence.createEntityManagerFactory("myDatabase");
+    private final EntityManagerFactory entityManagerFactory =
+            Persistence.createEntityManagerFactory("data");
     private final EntityManager entityManager = entityManagerFactory.createEntityManager();
 
     public static HibernateUtil getInstance() {
@@ -20,17 +20,19 @@ public class HibernateUtil {
         }
         return instance;
     }
-    public void saveByHibernateSession(Object o){
+
+    public void saveByHibernateSession(Object o) {
         try {
             Session session = entityManager.unwrap(Session.class);
             Transaction transaction = session.beginTransaction();
             session.save(o);
             transaction.commit();
             session.close();
-        }catch (PersistenceException e) {
+        } catch (PersistenceException e) {
             System.out.println("Could not unwrap session: " + e);
         }
     }
+
     public void save(Object o) {
         entityManager.getTransaction().begin();
         if (!entityManager.contains(o)) {
@@ -39,12 +41,14 @@ public class HibernateUtil {
         }
         entityManager.getTransaction().commit();
     }
-    public void delate(Class clazz, Long id){
+
+    public void delate(Class clazz, Long id) {
         entityManager.getTransaction().begin();
-        Object toRemove = entityManager.find(clazz,id);
+        Object toRemove = entityManager.find(clazz, id);
         entityManager.remove(toRemove);
         entityManager.getTransaction().commit();
     }
+
     public EntityManager getEntityManager() {
         return entityManager;
     }

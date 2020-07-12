@@ -2,18 +2,30 @@ package dao;
 
 import model.AppUser;
 
-import java.util.List;
+import java.util.HashSet;
 
 public interface UserDao {
-    List<AppUser> getAll();
-    void saveUser (AppUser user);
-    void deleteUser (long id);
+    HashSet<AppUser> getAll();
+
+    void saveUser(AppUser user);
+
+    void deleteUser(long id);
+
     AppUser getUserByEmail(String email);
+
     AppUser getUserByLogin(String login);
-    List<AppUser> getUserByName(String name);
+
+    HashSet<AppUser> getUserByName(String name);
+
     boolean isUserValid(String login, String password);
-    List<AppUser> getFollowUsers(String login);
-    List<AppUser> getFollowers(String login);
+
+    HashSet<AppUser> getFollowUsers(String login);
+
+    HashSet<AppUser> getNotFollowedUsers(String login);
+
+    HashSet<AppUser> getFollowers(String login);
+
     void follow(String currentUserLogin, String userLoginToFollow);
+
     void stopFollowing(String currentUserLogin, String userLoginToStopFollow);
 }
