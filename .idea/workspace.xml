@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f5133b3-30bd-4849-b0fd-267d83f65753" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/registrationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alaTwitter/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alaTwitter/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alaTwitter/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +53,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -108,6 +102,14 @@
       <option name="presentableId" value="Default" />
       <updated>1594455117360</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;AT-2. register.jsp file added.&quot;">
+      <created>1594715741663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594715741663</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -143,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sample" />
     <MESSAGE value="&quot;AT-1. HibernateUtil created, AppUser, Database configuration added.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;AT-1. HibernateUtil created, AppUser, Database configuration added.&quot;" />
+    <MESSAGE value="&quot;AT-2. register.jsp file added.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;AT-2. register.jsp file added.&quot;" />
   </component>
 </project>
