@@ -131,4 +131,55 @@ public class AppUser {
                 ", dateOfRegistration=" + dateOfRegistration +
                 '}';
     }
+    public static class UserBuiler {
+        private String name;
+        private String lastName;
+        private String login;
+        private String password;
+        private String email;
+        private Date dateOfRegistration;
+
+        public static UserBuiler getBuilder() {
+            return new UserBuiler();
+        }
+        public UserBuiler login(String login){
+            this.login= login;
+            return this;
+        }
+
+        public UserBuiler name(String name){
+            this.name= name;
+            return this;
+        }
+
+        public UserBuiler lastName(String lastName){
+            this.lastName = lastName;
+            return this;
+        }
+
+        public UserBuiler password(String password){
+            this.password = password;
+            return this;
+        }
+        public UserBuiler email(String email){
+            this.email = email;
+            return this;
+        }
+
+        public UserBuiler dateOfRegistration(Date dateOfRegistration){
+            this.dateOfRegistration = dateOfRegistration;
+            return this;
+        }
+
+        public AppUser build(){
+            AppUser user = new AppUser();
+            user.setLogin(this.login);
+            user.setName(this.name);
+            user.setLastName(this.lastName);
+            user.setPassword(this.password);
+            user.setEmail(this.email);
+            user.setDateOfRegistration(this.dateOfRegistration);
+            return user;
+        }
+    }
 }

@@ -17,7 +17,7 @@ public interface UserDao {
 
     HashSet<AppUser> getUserByName(String name);
 
-    boolean isUserValid(String login, String password);
+
 
     HashSet<AppUser> getFollowUsers(String login);
 
