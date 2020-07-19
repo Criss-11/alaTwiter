@@ -49,7 +49,7 @@ public class AppUserDao extends AbstractDao implements UserDao {
 
 
     @Override
-    public HashSet<AppUser> getFollowUsers(String login) {
+    public HashSet<AppUser> getFollowedUsers(String login) {
         AppUser userByLogin = getUserByLogin(login);
         return new HashSet<>(userByLogin.getFollowedByUsers());
     }
@@ -70,7 +70,7 @@ public class AppUserDao extends AbstractDao implements UserDao {
         Query query = entityManager.createQuery("select u from AppUser u where u.login != :login");
         query.setParameter("login", login);
         List<AppUser> users = query.getResultList();
-        users.removeAll(getNotFollowedUsers(login));
+        users.removeAll(getFollowedUsers(login));
         return new HashSet<>(users);
     }
 

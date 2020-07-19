@@ -19,7 +19,7 @@ public interface UserDao {
 
 
 
-    HashSet<AppUser> getFollowUsers(String login);
+    HashSet<AppUser> getFollowedUsers(String login);
 
     HashSet<AppUser> getNotFollowedUsers(String login);
 

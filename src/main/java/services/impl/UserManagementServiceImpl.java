@@ -40,7 +40,7 @@ public class UserManagementServiceImpl implements UserManagementService {
 
     @Override
     public Set<AppUser> getFollowedUsers(String currentUserLogin) {
-        return dao.getFollowers(currentUserLogin);
+        return dao.getFollowedUsers(currentUserLogin);
     }
 
     @Override

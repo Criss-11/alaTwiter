@@ -70,7 +70,10 @@ public class LoginServlet extends HttpServlet {
            errors.add(new ValidationError(ERROR_LOGIN_HEADER, ERROR_LOGIN_MESSAGE));
            req.setAttribute(ERRORS, errors);
            req.getRequestDispatcher("/login.jsp").forward(req, resp);
+           return;
        }
+       req.getSession().setAttribute(LOGIN, login);
+
        if(isRememberChecked){
            Cookie loginCookie = new Cookie(LOGIN, login);
            loginCookie.setMaxAge(60*60);
