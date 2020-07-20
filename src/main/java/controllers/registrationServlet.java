@@ -54,7 +54,6 @@ public class registrationServlet extends HttpServlet {
                     .name(req.getParameter(NAME))
                     .lastName(req.getParameter(LAST_NAME))
                     .password(req.getParameter(PASSWORD))
-                    .dateOfRegistration(new Date())
                     .build();
 
             service.saveUser(user);

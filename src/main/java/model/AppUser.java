@@ -1,5 +1,7 @@
 package model;
 
+import org.hibernate.annotations.CreationTimestamp;
+
 import javax.persistence.*;
 import java.util.Date;
 import java.util.HashSet;
@@ -21,6 +23,7 @@ public class AppUser {
     private String password;
     private String email;
     @Column(name = "dateOfRegistration")
+    @CreationTimestamp
     private Date dateOfRegistration;
     @ManyToMany(mappedBy = "followedByUsers")
     private Set<AppUser> followers = new HashSet<>();

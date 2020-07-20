@@ -1,7 +1,9 @@
 package controllers;
 
-import services.UserManagementService;
-import services.impl.UserManagementServiceImpl;
+
+
+import dao.TweetManagementService;
+import dao.impl.TweetManagementServiceImpl;
 import utils.ServletsUtils;
 
 import javax.servlet.ServletException;
@@ -11,32 +13,31 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import static utils.ServletsUtils.*;
+import static utils.ServletsUtils.TWEET_MESSAGE_PARAM;
 
-@WebServlet(name = "UsersServlet", value = "/users")
-public class UsersServlet extends HttpServlet {
-
-    private UserManagementService service;
+@WebServlet(name = "AddTweetServlet", value = "/addMessage")
+public class AddTweetServlet extends HttpServlet {
+    private TweetManagementService service;
 
     @Override
     public void init() throws ServletException {
-        service = new UserManagementServiceImpl();
+       service = new TweetManagementServiceImpl();
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doPost(req, resp);
-
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String userLoginFromSession = ServletsUtils.getUserLoginFromSession(req);
-
-        req.setAttribute(NOT_FOLLOWED_USERS, service.getNotFollowedUsers(userLoginFromSession));
-        req.setAttribute(FOLLOWED_USERS, service.getFollowedUsers(userLoginFromSession));
-        req.getRequestDispatcher("/users.jsp").forward(req, resp);
+        String message = req.getParameter(TWEET_MESSAGE_PARAM);
+        if(message == null || message.isEmpty()) {
+            req.getRequestDispatcher("messages").forward(req, resp);
+            return;
+        }
+        service.addTweet(userLoginFromSession, message);
+        req.getRequestDispatcher("messages").forward(req, resp);
     }
-
-
 }

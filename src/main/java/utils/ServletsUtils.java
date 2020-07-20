@@ -21,6 +21,10 @@ public class ServletsUtils {
     public static final String ERROR_LOGIN_MESSAGE = "Login or password is invalid";
     public static final String USER_LOGIN_TO_FOLLOW = "userLoginToFollow";
     public static final String USER_LOGIN_TO_UNFOLLOW = "userLoginToUnfollow";
+    public static final String TWEET_MESSAGE_PARAM = "tweetMessage";
+    public static final String TWEET_ID_PARAM = "tweetId";
+    public static final String FOLLOWED_TWEETS = "tweets";
+
 
     public static String getUserLoginFromSession(HttpServletRequest req ){
         return (String) req.getSession().getAttribute(LOGIN);
